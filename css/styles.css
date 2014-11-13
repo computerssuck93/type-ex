@@ -1,7 +1,28 @@
 /* Your Website Styles */
 
+body{
+	background: url("../img/real_cf.png");
+	background-repeat: repeat;
 
+}
+
+h1{
+	font-family: 'Black Ops One', cursive;
+	font-size: 10em;
+	color: #9F896D;
+	width: 1200px;
+	-webkit-mask-image: url("../img/dirt.png");
+	-moz-mask-image: url("../img/dirt.png");
+	-o-mask-image: url("../img/dirt.png");
+    mask-image: url("../img/dirt.png"); 
+}
+
+p{
+	color: white;
+
+}
 /* Show Grid */
 .showgrid {
-	background: url("../img/grid-bg.png") repeat-y;
+/*	background: url("../img/real_cf.png");
+	background-repeat: repeat;*/
 }
