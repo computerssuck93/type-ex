@@ -6,15 +6,30 @@ body{
 
 }
 
-h1{
+#clipped{ 
+    color: red;
+    background: -webkit-linear-gradient(transparent, transparent), url("../img/rusted.png");
+    background: -o-linear-gradient(transparent, transparent);
+    background-size: 40%;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-position: 42% 80%;
+    background-repeat: repeat;
+
+}
+
+#clippedH1{
 	font-family: 'Black Ops One', cursive;
-	font-size: 10em;
-	color: #9F896D;
-	width: 1200px;
-	-webkit-mask-image: url("../img/dirt.png");
-	-moz-mask-image: url("../img/dirt.png");
-	-o-mask-image: url("../img/dirt.png");
-    mask-image: url("../img/dirt.png"); 
+	font-size: 8.5em;
+	color: #999999;
+	width: 1000px;
+
+}
+
+#logo img{
+  max-width: 500px;
+  margin: -75px 0 0 250px;
+
 }
 
 p{
